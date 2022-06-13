@@ -7,7 +7,7 @@
     background-color: #e8f5fe;
     border-radius: 30px;
     /* hover font color */
-    color: var(--twitter-color);
+    color: var(--oss-color);
     transition: color 100ms ease-out;
 }
 
@@ -22,5 +22,11 @@
 }
 
 .sidebarOption--active{
-    color:var(--twitter-color);
+    color:var(--oss-color);
 }
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    #h2 {
+     display: none;
+    }
+  }

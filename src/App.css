@@ -1,6 +1,6 @@
 body{
-    --twitter-color: #50b7f5;
-    --twitter-background: #e6ecf0;
+    --oss-color: #50b7f5;
+    --oss-background: #e6ecf0;
 }
 .app{
     display: flex;
@@ -9,4 +9,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 0 10px;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .app{
+       
+        padding: 0 0px;
+    }
 }
