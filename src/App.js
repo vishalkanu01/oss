@@ -1,6 +1,6 @@
 import './App.css';
-import Sidebar from "./Sidebar";
-import Feed from "./Feed";
+import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed";
 
 
 function App() {

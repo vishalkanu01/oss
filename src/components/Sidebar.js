@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import logo from './utils/PU-logo.png'
+import logo from "../utils/PU-logo.png"
 import HomeIcon from '@mui/icons-material/Home';
 import SidebarOption from "./SidebarOption";
 import SearchIcon from "@mui/icons-material/Search";

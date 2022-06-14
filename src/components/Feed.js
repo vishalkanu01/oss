@@ -3,7 +3,7 @@ import React from 'react';
 function Feed() {
     return (
         <div>
-            <h2>home</h2>
+            <h2>Home</h2>
             {/* Header */}
             {/* Tweet box */}
             {/* Post */}
