@@ -1,0 +1,8 @@
+.widgets {
+    flex: 0.3;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+    .widgets{
+        display: none;
+    }
+}

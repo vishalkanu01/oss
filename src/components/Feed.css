@@ -1,0 +1,36 @@
+.feed {
+  flex: 0.4;
+  border-right: 1px solid var(--oss-background);
+  /* min-width: fit-content; */
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for chrome, safari and opera */
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar from IE, Edge and Firefox */
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.feed__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--oss-background);
+  padding: 15px 20px;
+}
+
+.feed__header .h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+@media screen and (min-width: 200px) and (max-width: 500px) {
+ .feed{
+  flex: 0.8;
+ }
+}
