@@ -4,6 +4,7 @@ import Feed from "./components/Feed";
 import Widgets from "./components/Widgets";
 import Login from "./pages/login";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from './components/navbar/Navbar';
 
 
 
@@ -13,10 +14,10 @@ function App() {
     <Router>
       <div className="app">
         <Sidebar />
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Feed />} />
 
-          {/* <Widgets /> */}
         </Routes>
 
       </div>
